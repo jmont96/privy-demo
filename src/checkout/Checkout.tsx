@@ -26,7 +26,7 @@ export function Checkout() {
   return (
     <div style={{ height }}>
       <CoinflowPurchase
-        amount={undefined} // Optional - hard code the amount to purchase
+        amount={1} // Safemint amount is 1
         transaction={transaction}
         wallet={wallet}
         merchantId={"privy"}
