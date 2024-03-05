@@ -44,7 +44,7 @@ function App() {
       </div>
       <div
         className={
-          "w-full bg-gray-50 min-h-screen md:w-3/4 lg:w-1/2 ring-[0.5px] ring-gray-200 rounded-2xl overflow-hidden"
+          "w-full bg-white min-h-screen md:w-3/4 lg:w-1/2 ring-[0.5px] ring-gray-200 rounded-2xl overflow-hidden"
         }
       >
         {selectedPage === CoinflowPages.Checkout ? <Checkout /> : <Withdraw />}

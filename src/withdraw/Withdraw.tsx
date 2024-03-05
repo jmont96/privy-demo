@@ -18,7 +18,7 @@ export function Withdraw() {
         theme={APP_THEME}
         wallet={wallet}
         merchantId={"privy"}
-        env={"prod"}
+        env={"sandbox"}
         onSuccess={onSuccess}
         blockchain={"polygon"}
         email={""}
